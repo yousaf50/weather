@@ -1,9 +1,9 @@
 <?php
-$apiKey = "dc0bfed3882b1c9605a589d949a0b6fe";
+$apiKey = "your API key";
 $cityId = "1176615";
 $peshawer="1168197";
 $charsadda="1181439";
-
+$myapi="dczerobfed3882b1c9605a589d949a0b6fe";
 $googleApiUrl = "http://api.openweathermap.org/data/2.5/weather?id=" . $peshawer . "&lang=en&units=metric&APPID=" . $apiKey;
 $ch = curl_init();
 
